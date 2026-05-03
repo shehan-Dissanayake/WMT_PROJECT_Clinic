@@ -17,7 +17,6 @@ app.use(express.urlencoded({ limit: '10mb', extended: true }));
 // --- DATABASE CONNECTION ---
 // We will put your real MongoDB Atlas link in a .env file later. 
 // For now, this is a placeholder.
-const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/clinic_db";
 
 mongoose.connect(MONGO_URI)
