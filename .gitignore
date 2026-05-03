@@ -1,0 +1,11 @@
+# Ignore node_modules in all subfolders
+node_modules/
+*/node_modules/
+
+# Ignore env files in all subfolders
+.env
+*/.env
+
+# Ignore Expo mobile stuff
+.expo/
+*/.expo/
